@@ -1,0 +1,149 @@
+.Nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #45505b44;
+    width: 80px;
+    height: 640px;
+    border-radius: 40px;
+    justify-content: space-around;
+    background-color: #90e1ef77;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+body {
+    background-image: url(../images/aestetic.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Nav img {  
+    width: 60px;    
+    margin: 10px;
+}
+.Nav img:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease-out;
+    
+}
+.Nav:hover {
+    width: 160px;
+    height: 640px;
+    background-color: #90e1ef77;
+    transition: all 0.4s ease-out;
+}
+.section {
+    display: flex;
+}
+.section2 {
+    display: flex;
+}
+.section3 {
+    display: flex;
+}
+.section4 {
+    display: flex;
+}
+.section5 {
+    display: flex;
+}
+.section6 {
+    display: flex;
+}
+.textohome {
+    visibility: hidden;
+}
+
+.section:hover p {
+    visibility: visible;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    font-size: 1.2rem;
+    transition: all 0.6s ease-out;
+}
+.section2:hover p {
+    visibility: visible;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    font-size: 1.2rem;
+    transition: all 0.6s ease-out;
+}
+.section3:hover p {
+    visibility: visible;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    font-size: 1.2rem;
+    transition: all 0.6s ease-out;
+}
+.section4:hover p {
+    visibility: visible;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    font-size: 1.2rem;
+    transition: all 0.6s ease-out;
+}
+.section5:hover p {
+    visibility: visible;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    font-size: 1.2rem;
+    transition: all 0.6s ease-out;
+}
+.section6:hover p {
+    visibility: visible;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    font-size: 1.2rem;
+    transition: all 0.6s ease-out;
+}
+.main {
+    display: flex;
+    justify-content: center;
+}
+header {
+    position: fixed;
+}
+body {
+    background-color: #caf0f8;
+}
+body h1 {
+    color: rgb(206, 199, 199);
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+}
+.iconos img{
+    width: 60px;
+    margin: 20px;
+}
+.instagram:hover img{
+    transform: rotate(1turn);
+    transition: all 1s ease-out;
+}
+.github:hover img{
+    transform: rotate(1turn);
+    transition: all 1s ease-out;
+}
+.linkedin:hover img{
+    transform: rotate(1turn);
+    transition: all 1.5s ease-out;
+}
+.iconos {
+    display: flex;
+    justify-content: center;
+    margin: 130px;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about h2 {
+    font-size: 2rem;
+    color: white;
+}
+.separador {
+    background-color: color aqua;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(160deg, #d6ffff 0, #c7ffff 10%, #b9ffff 20%, #aeffff 30%, #a5ffff 40%, #9df2f2 50%, #96d8dc 60%, #91c2c8 70%, #8caeb5 80%, #879ea4 90%, #829095 100%);    
+}
+
